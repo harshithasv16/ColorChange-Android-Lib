@@ -19,6 +19,6 @@ Step 2. Add the dependency
   
   dependencies {
 
-		implementation 'com.github.nasirbashak:ColorChange-Android-Lib:2.1.0'
+		implementation 'com.github.nasirbashak:ColorChange-Android-Lib:3.0.0'
 
 	}
