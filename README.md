@@ -3,11 +3,11 @@ A Library to chnage the color of any view in the background for Android
 
 To use this library in your project
 
-<a href="https://imgflip.com/gif/2dzx9y"><img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzx9y.gif" title="made at imgflip.com"/></a>
+<img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzx9y.gif"/>
 
-<a href="https://imgflip.com/gif/2dzxr4"><img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxr4.gif" title="made at imgflip.com"/></a>
+<img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxr4.gif"/>
 
-<a href="https://imgflip.com/gif/2dzxcf"><img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxcf.gif" title="made at imgflip.com"/></a>
+<img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxcf.gif"/>
 
 Step 1. Add the JitPack repository to your build file
 
