@@ -55,6 +55,46 @@ public class ChangeColor extends AppCompatActivity {
     }
 
 
+    public void changeBackgroundColor(final View v, String start, String end, final int delay) {
+
+
+        startNum = Integer.parseInt(start, 16);
+        temp = startNum;
+        endNum = Integer.parseInt(end, 16);
+
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+
+                for (; ; ) {
+                    runOnUiThread(new Runnable() {
+
+                        @Override
+                        public void run() {
+
+                            v.setBackgroundColor(Color.parseColor(generateTheColorCode()));
+
+                            // Stuff that updates the UI
+
+                        }
+                    });
+
+                    try {
+                        Thread.sleep(delay);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+
+        }).start();
+
+    }
+
+
     public String generateTheColorCode() {
 
         String hexString = "";
