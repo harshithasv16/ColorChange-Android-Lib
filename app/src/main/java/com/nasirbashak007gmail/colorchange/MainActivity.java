@@ -1,9 +1,9 @@
 package com.nasirbashak007gmail.colorchange;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,11 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void test() {
 
-        ChangeColor changeColor = new ChangeColor();
+        ChangeColor changeColor = new ChangeColor(this);
 
 
-        changeColor.changeBackgroundColor(myTextView, "03FBFF", "FF7803");//without delay default is 225ms
-        changeColor.changeBackgroundColor(myTextView, "03FBFF", "FF7803", 500);// with delay
+         //changeColor.changeTextColor(myTextView,"03FBFF", "FF7803");//without delay default is 225ms
+        //changeColor.changeTextColor(myTextView, "03FBFF", "FF7803", 500);//with delay
+
+         changeColor.changeBackgroundColor(myTextView, "03FBFF", "FF7803");//without delay default is 225ms
+        //changeColor.changeBackgroundColor(myTextView, "03FBFF", "FF7803", 500);// with delay
 
 
         String s = changeColor.generateTheColorCode();
