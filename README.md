@@ -24,7 +24,9 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency 
   
   dependencies {
-
+  
 		implementation 'com.github.nasirbashak:ColorChange-Android-Lib:3.0.0'
 
 	}
+
+<a href="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/app/src/main/java/com/nasirbashak007gmail/colorchange/MainActivity.java">Sample code</a>
