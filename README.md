@@ -7,7 +7,7 @@ To use this library in your project
 
 <img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxr4.gif"/>
 
-<img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2dzxcf.gif"/>
+<img src="https://github.com/nasirbashak/ColorChange-Android-Lib/blob/master/Screenshots/2e39vr.gif"/>
 
 Step 1. Add the JitPack repository to your build file
 
